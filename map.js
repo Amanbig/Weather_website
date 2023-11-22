@@ -21,7 +21,7 @@ const n = 10;
     }
 
     const baseUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&lat=";
-    const apiKey = '385df3d81f3a89c1c99c115735540c6d';
+    const apiKey = 'f4a15e7faaa1041a91939ee7dc85824b';
     const urls = points.map(point => baseUrl + point.lat + "&lon=" + point.lng + "&appid=" + apiKey);
 
     const weathers = await Promise.all(urls.map(async url => {
