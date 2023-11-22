@@ -148,6 +148,9 @@ const app = async (data="food") => {
     document.querySelector(".card-title.t3").innerText = result.articles[2].title;
     document.querySelector(".card-img-top.img3").src = result.articles[2].urlToImage;
     document.querySelector(".btn.btn-primary.a3").href = result.articles[2].url;
+    document.querySelector(".card-title.t4").innerText = result.articles[3].title;
+    document.querySelector(".card-img-top.img4").src = result.articles[3].urlToImage;
+    document.querySelector(".btn.btn-primary.a4").href = result.articles[3].url;
     // document.querySelector('.btn.btn-primary').href=result[0].url;
     console.log(result);
   } catch (error) {
